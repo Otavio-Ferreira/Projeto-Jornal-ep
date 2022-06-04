@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background:#365073;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 110px;
+
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#img-header{
+    width: 60px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+nav{
+ 
+    background: #D9CDB8;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+
+
+}
+.navegacao{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    margin: 15px;
+    background-color: #BF3939;
+    border-radius: 7px;
+}
+form{
+    margin-left: 500px;
+}
+input{
+    padding: 7px;
+    border-radius: 10px 0px 0px 10px;
+}
+form button{
+    padding: 7px;
+    border-radius: 0px 10px 10px 0px;
+    background: #BF3939;
+    color: white;
+}
+.navegacao:hover{
+   
+    background-color: #A63B32;
+
+	color: white;
+	text-decoration: underline;
+    padding: 8px;
+    border-radius: 7px;
+    
+}
+body{
+    background-color: #D9CDB8;
+
+}
+main{ 
+    margin: auto;
+    padding: 15px;
+}
+.escola{
+    text-align: center;
+    color: white;
+    background-color:#A63B32 ;
+    font-size: 2em;
+    
+}
+#school {
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+}
+.text-school{
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+}
+#em-alta{
+    display: flex;
+    background: white;
+    text-align: justify;
+    align-items: center;
+  
+}
+
+#em-alta p {
+    padding: 20px;
+}
+
+.materias:hover{
+    text-decoration: underline;
+}
+.materias{
+    text-decoration: none;
+    color: black;
+}
+.materia{
+    display: flex;
+    border: solid 1px black;
+    margin: 20px;
+    background-color: rgb(134, 133, 133);
+    border-radius: 10px;
+    border: solid 1px black;
+
+}
+.materia p{
+    font-size: 16px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#secundario{
+    margin: 20px;
+}
+footer{
+    border-top: solid 5px #A63B32;
+    background: #365073;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+   
+
+.curso{
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+
+#title{
+    color: white;
+    background-color: #BF3939;
+    text-align: center;
+    margin: 10px;
+}
+
+#infor{
+    color: white;
+    background-color: #365073;
+    text-align: center;
+}
+#info{
+    background-color: rgb(247, 38, 38);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#info img{
+    display: block;
+    margin: auto;
+}
+
+#contabil{
+    color: white;
+    background-color: #365073;
+    text-align: center;
+}
+#conta{
+    background-color: rgb(255, 28, 217);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+#conta img{
+    display: block;
+    margin: auto;
+}
+
+#pecuaria{
+    color: white;
+    background-color: #365073;
+    text-align: center;
+}
+#agro{
+    background-color: rgb(28, 70, 22);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+#agro img{
+    display: block;
+    margin: auto;
+}
+
+#admin{
+    color: white;
+    background-color: #365073;
+    text-align: center;
+}
+#adm{
+    background-color: rgb(22, 13, 95);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+#adm img{
+    display: block;
+    margin: auto;
+}
+
+#eventosh{
+    color: white;
+    background-color: #365073;
+    text-align: center;
+}
+
+.events{
+    background-color: white;
+    border: solid 1px black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.events h2{
+    text-align: center;
+    background-color: #BF3939;
+    color: white;
+}

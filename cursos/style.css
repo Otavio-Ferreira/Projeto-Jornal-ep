@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background: #260120;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+header h1{
+    margin-left: 80px;
+}
+#img-header{
+    width: 80px;
+    margin-left: 20px;
+    padding: 20px;
+}
+#botoes{
+    margin-left: 400px;
+    background-color: #260120;
+    border: none;
+}
+#dark{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+}
+#ligth{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+}
+#dark a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+#ligth a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+nav{
+ 
+    background: #0D000C;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+
+}
+.navegacao{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    margin: 15px;
+    background-color: #73026B;
+    border-radius: 7px;
+}
+form{
+    margin-left: 500px;
+}
+input{
+    padding: 7px;
+    border-radius: 10px 0px 0px 10px;
+}
+form button{
+    padding: 7px;
+    border-radius: 0px 10px 10px 0px;
+    background: #73026B;
+    color: white;
+}
+.navegacao:hover{
+   
+    background-color: #260120;
+	transition: 1s;
+	color: white;
+	text-decoration: underline;
+    padding: 4px;
+    border-radius: 7px;
+    
+}
+body{
+    background-color: black;
+
+}
+main{ 
+    margin: auto;
+    padding: 15px;
+}
+.escola{
+    text-align: center;
+    color: white;
+    background-color:#0D000C ;
+    font-size: 2em;
+    
+}
+#school {
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+}
+.text-school{
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+}
+#em-alta{
+    display: flex;
+    background: white;
+    text-align: justify;
+    align-items: center;
+  
+}
+
+#em-alta p {
+    padding: 20px;
+}
+
+.materias:hover{
+    text-decoration: underline;
+}
+.materias{
+    text-decoration: none;
+    color: black;
+}
+div{
+    display: flex;
+    border: solid 1px black;
+    margin: 20px;
+    background-color: #73026B;
+
+}
+div p{
+    font-size: 16px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#secundario{
+    margin: 20px;
+}
+footer{
+    background: #0D000C;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
